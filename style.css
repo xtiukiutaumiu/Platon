@@ -1,0 +1,12 @@
+ol{font-size: 35px}
+h1{
+    font-size: 60px;
+    color: rgb(24, 192, 243);
+}
+body{
+    padding-left: 300px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
