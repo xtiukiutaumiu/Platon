@@ -1,0 +1,64 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #daad5a	;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #4C2982	;
+}
+
+p {
+    font-size: 40px;
+    color:#4C2982	;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(#4C2982	,white);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFE400;
+    margin: 30px;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover { opacity: 1;
+border: 6px solid #18013b;
+width: 170px;
+height: 220px;
+padding: 5px;
+transition:all 0.5s ease-in-out;
+}
+
+.text {
+    width: 300px;
+}
+
+.right {
+    text-align: right;
+}
